@@ -187,7 +187,7 @@ const Container = styled.div`
   overflow-x: hidden;
   flex-flow: row wrap;
   align-items: stretch;
-  height: 100vh;
+  height: 100%;
 `;
 
 const MsgCanvas = styled.div`

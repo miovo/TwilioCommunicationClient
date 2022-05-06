@@ -12,6 +12,7 @@ function ChannelSwitcher(props) {
   return (
     <><div style={{textAlignVertical: "center",textAlign: "center",}}>
       <h1>Communication Client</h1>
+      <p>For use of SMS communications and OUTBOUND calls</p>
     </div><TabsContainer>
         <Tabs>
           <TabHeader>

@@ -43,7 +43,7 @@ export default class AuthForm extends Component {
             <h1>Communication Client</h1>
             <h5>INFO PAST THIS PAGE IS CONFIDENTIAL</h5>
             <br></br>
-            <p>Enter the pin</p>
+            <p>Enter the pin:</p>
             <p>
               <input
                 type="text"

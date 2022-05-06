@@ -214,7 +214,7 @@ const Canvas = styled.div`
   flex-direction: column;
   flex-wrap: nowrap;
   align-items: stretch;
-  height: 100vh;
+  height: 100%;
   position: relative;
   overflow-x: hidden;
 `;
