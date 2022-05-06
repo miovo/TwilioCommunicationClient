@@ -11,8 +11,8 @@ Then there are couple things that need to be prepared before the installation:
 Now clone this repository:
 
 ```
-$ git clone https://github.com/jandusek/twilio-phone-client.git
-$ cd twilio-phone-client/
+$ git clone 
+$ cd 
 ```
 
 And install dependencies and deploy it to your Functions for the first time:
