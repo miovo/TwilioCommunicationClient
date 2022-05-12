@@ -11,16 +11,16 @@ Then there are couple things that need to be prepared before the installation:
 Now clone this repository:
 
 ```
-$ git clone https://github.com/miovo/CommunicationClientREACT.git
-$ cd CommunicationClientREACT
+git clone https://github.com/miovo/CommunicationClientREACT.git
+cd CommunicationClientREACT
 ```
 
 And install dependencies and deploy it to your Functions for the first time:
 
 ```
-$ npm install                    # install React dependencies
-$ cd deploy; npm install; cd ..  # install Twilio Runtime dependencies
-$ npm run deploy                 # test deploy your application to get its public URLs
+npm install                    # install React dependencies
+cd deploy; npm install; cd ..  # install Twilio Runtime dependencies
+npm run deploy                 # test deploy your application to get its public URLs
 ...
 Functions:
    [protected] https://twilio-phone-client-XXXX-dev.twil.io/callInbound  <<< note down the /callInbound URL
@@ -58,8 +58,9 @@ If you do not want the client to be password-protected, you can set the `SECRET`
 7. Save the collected information and deploy
 
 ```
-$ cp deploy/.env.sample deploy/.env
-$ vim deploy/.env   # fill in information collected in the previous steps
+cp deploy/.env.sample deploy/.env
+nano deploy/.env   # fill in information collected in the previous steps
+
 ACCOUNT_SID=ACxxx
 API_KEY=SKxxx
 API_SECRET=xxx
@@ -68,7 +69,8 @@ TWILIO_NUMBER=+1xxx
 TWIML_APP_SID=APxxx
 SECRET=some_password
 
-$ npm run deploy    # deploy your application for the 2nd time
+npm run deploy    # deploy your application for the 2nd time
+
 ...
 Assets:
    https://twilio-phone-client-XXXX-dev.twil.io/asset-manifest.json
