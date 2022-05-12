@@ -11,8 +11,8 @@ Then there are couple things that need to be prepared before the installation:
 Now clone this repository:
 
 ```
-$ git clone 
-$ cd 
+$ git clone https://github.com/miovo/CommunicationClientREACT.git
+$ cd CommunicationClientREACT
 ```
 
 And install dependencies and deploy it to your Functions for the first time:
