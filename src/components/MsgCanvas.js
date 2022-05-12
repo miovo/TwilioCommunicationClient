@@ -37,14 +37,14 @@ export default class CanvasMsg extends Component {
     }
   };
 
-  deleteThread = (contact) => {
-    this.props.client.getChannelByUniqueName(contact).then((channel) => {
-      // mark all messages as read
-      channel.delete();
-      this.fetchTracker[contact] = false;
-      delete this.msgAddedHandlerTracker[contact];
-    });
-  };
+  //deleteThread = (contact) => {
+  //  this.props.client.getChannelByUniqueName(contact).then((channel) => {
+  //    // mark all messages as read
+  //    channel.delete();
+  //    this.fetchTracker[contact] = false;
+  //    delete this.msgAddedHandlerTracker[contact];
+  //  });
+  //};
 
   fetchAnotherPage = () => {
     return new Promise((resolve, reject) => {
@@ -196,7 +196,7 @@ export default class CanvasMsg extends Component {
               client={this.props.client}
               channelList={this.props.channelList}
               selectContact={this.selectContact}
-              deleteThread={this.deleteThread}
+              //deleteThread={this.deleteThread}
               msgCache={this.props.msgCache}
               unreadsCache={this.props.unreadsCache}
             />

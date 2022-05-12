@@ -6,15 +6,18 @@ import { BadgeAfter } from './CommonComponents';
 const accent = process.env.REACT_APP_ACCENT_COLOR;
 
 function MsgContactList(props) {
-  const trashClick = (phoneNumber, e) => {
-    e.stopPropagation();
-    if (
-      window.confirm(
-        `Are you sure you want to delete all messages to '${phoneNumber}' ?`
-      )
-    )
-      props.deleteThread(phoneNumber);
-  };
+  //const trashClick = (phoneNumber, e) => {
+  //  e.stopPropagation();
+   // if (
+   //   window.confirm(
+   //     `Are you sure you want to delete all messages to '${phoneNumber}' ?`
+    //  )
+   // )
+   //   props.deleteThread(phoneNumber);
+  //};
+
+  // AFTER LINE 75:                 <Trash onClick={trashClick.bind(null, phoneNumber)} />
+
 
   return (
     <div>
@@ -72,7 +75,6 @@ function MsgContactList(props) {
                       )
                     : '...'}
                 </BodyPreview>
-                <Trash onClick={trashClick.bind(null, phoneNumber)} />
               </Body>
             </Contact>
           );

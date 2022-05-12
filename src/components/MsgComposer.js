@@ -114,6 +114,7 @@ export default class MsgComposer extends Component {
             disabled={this.state.sending}
           />
         </TextAreaContainer>
+        
         <BtnSend
           key="btnSend"
           disabled={this.state.msgText === '' || this.state.sending}
