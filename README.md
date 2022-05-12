@@ -1,7 +1,6 @@
 # Twilio Phone Client
 
 - [Installation](./INSTALL.md)
-- [Changelog](./CHANGELOG.md)
 
 ## Table of contents
 
