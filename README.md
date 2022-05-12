@@ -35,16 +35,6 @@ The npm `deploy` command utilizes [Twilio CLI](https://www.twilio.com/docs/twili
 - Call: Support for both inbound and outbound calls
 - Configurable accent color (see `REACT_APP_ACCENT_COLOR` in `/.env`)
 
-## Roadmap
-
-- ~~Add basic form of authentication~~
-- Add one-click installation option (using Heroku) to eliminate the need for local env and numerous manual installation steps
-- ~~Add support for inbound calls~~
-- ~~Add unread badges to individual messaging threads and SMS channel overall~~
-- ~~Add ability to delete SMS threads from within the client~~
-- Add support for Multimedia Messages (MMS) for both inbound and outbound
-- Add call history and allow quick redials
-
 ## Screenshots
 
 ### SMS
