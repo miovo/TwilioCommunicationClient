@@ -1,4 +1,4 @@
-# Twilio Phone Client
+# Twilio Communication Client
 
 - [Installation](./INSTALL.md)
 
